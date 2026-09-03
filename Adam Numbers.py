@@ -1,4 +1,4 @@
-for i in range (int(input('enter lower limit:')),int(input('enter uppr limit:'))):
+for i in range (int(input('enter lower limit:')),int(input('enter upper limit:'))):
     g=int(max(str(i)))                                                               #"no carry" rule
     if g<=3:
         h=int(str(i)[::-1])                                                          #reversing the number i
