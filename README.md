@@ -1,4 +1,4 @@
-###ADAM-NUMBERS
+### ADAM-NUMBERS:
 -Basic Introduction to Adam Numbers
 -This is my first Repository
 -I wrote this Python program to explore the mathematical property where `reverse(n²) = reverse(n)²`.
