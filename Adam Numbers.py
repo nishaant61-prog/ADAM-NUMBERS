@@ -1,5 +1,6 @@
 for i in range (int(input('enter lower limit:')),int(input('enter uppr limit:'))):
     g=int(max(str(i)))                                                               #"no carry" rule
+    if g<=3:
         h=int(str(i)[::-1])                                                          #reversing the number i
         if i<=h:                      
             k=int(str(i**2)[::-1])                                                   #reversing the number i**2
